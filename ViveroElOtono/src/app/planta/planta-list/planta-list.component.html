@@ -8,7 +8,7 @@
  
   <table class="table">
     <thead class="table-dark" >
-      <tr>
+      <tr class="encabezado">
         <th scope="col">#</th>
         <th scope="col" ><span id="nombre">Nombre común</span></th>
         <th scope="col">Tipo</th>
@@ -16,11 +16,11 @@
       </tr>
     </thead>
     <tbody> 
-      <tr *ngFor="let planta of plantas">
-      <td id='planta{{planta.id}}' class="idplanta">{{planta.id}}</td>
-      <td>{{planta.nombre_comun}}</td>
-      <td>{{planta.tipo}}</td>
-      <td>{{planta.clima}}</td>
+      <tr *ngFor="let planta of plantas" class="planta">
+      <td id='planta{{planta.id}}'  class="idplanta rowline{{planta.id}}">{{planta.id}}</td>
+      <td class='rowline{{planta.id}}'>{{planta.nombre_comun}}</td>
+      <td class='rowline{{planta.id}}'>{{planta.tipo}}</td>
+      <td class='rowline{{planta.id}}'>{{planta.clima}}</td>
     </tr>
      
     </tbody>

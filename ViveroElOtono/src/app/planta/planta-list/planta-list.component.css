@@ -3,7 +3,7 @@
   justify-content: center;
 }
 #divTitle {
-  box-shadow: 0px 4px 4px #00000073;
+  box-shadow: 0px 4px 4px #000000f6;
 }
 hr {
   margin: 4.5%;
@@ -44,14 +44,15 @@ h1 {
   text-shadow: 0px 4px 4px #00000073;
 }
 th {
-  box-shadow: 0px 4px 4px #2125297a;
+  box-shadow: 0px 3px 3px #2125297a;
 }
 td {
-  box-shadow: 0px 2px 0px #21252927;
+  box-shadow: 0px 3px 0px #2f31331c;
 }
 p {
   margin-left: 4.5%;
   margin-bottom: 0;
+  font-weight: medium;
 }
 #footer {
   display: flex;
@@ -62,4 +63,8 @@ p {
   font-weight: bold;
   margin-top: 2%;
   margin-bottom: 1%;
+}
+.rowline6{
+   border-color: white;
+   box-shadow: 0 0 0 white;
 }
