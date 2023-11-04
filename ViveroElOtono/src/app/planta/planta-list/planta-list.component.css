@@ -1,31 +1,65 @@
-#portada{
-    display: flex;
+#portada {
+  display: flex;
   justify-content: center;
+}
+#divTitle {
+  box-shadow: 0px 4px 4px #00000073;
+}
+hr {
+  margin: 4.5%;
+  margin-top: 1%;
+  margin-bottom: 1.5%;
+}
+h1 {
+  margin-left: 4.5%;
+  margin-top: 1%;
+  font-family: "KaiseiDecol";
+  font-weight: normal;
+  -webkit-text-stroke: 1px #000;
 
+  text-shadow: 0px 4px 4px #00000073;
 }
-#divTitle{
-    box-shadow: 0px 4px 4px #00000073;
+.custom-header {
+  background-color: #000 !important;
 }
-hr{
-    margin:4.5%;
-    margin-top: 1%;
-    margin-bottom: 1.5%;
+#nombre {
+  text-shadow: -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000, 1.5px -1.5px 0 #000,
+    -1.5px -1.5px 0 #000;
 }
-h1{
-    margin-left:4.5%;
-    margin-top: 1%;
-    font-family: 'KaiseiDecol';
-    font-weight: normal;
-    -webkit-text-stroke: 1px #000; 
+.table {
+  font-family: "Inter";
+  width: 50%;
+  margin-left: 4.5%;
+  --bs-table-bg: #00000000;
+  text-shadow: 0px 4px 4px #00000073;
+}
+#planta1 {
+  font-weight: bolder;
+  -webkit-text-stroke: 1px #000;
+}
 
-    text-shadow: 0px 4px 4px #00000073;
-}
-.custom-header{
-    background-color: #000!important;
-}
+.idplanta {
+  font-weight: bold;
 
-.table{
-    font-family: 'Inter';
-    width:50%;
-    margin-left: 4.5%;
+  text-shadow: 0px 4px 4px #00000073;
+}
+th {
+  box-shadow: 0px 4px 4px #2125297a;
+}
+td {
+  box-shadow: 0px 2px 0px #21252927;
+}
+p {
+  margin-left: 4.5%;
+  margin-bottom: 0;
+}
+#footer {
+  display: flex;
+  justify-content: center;
+  text-shadow: 0px 4px 4px #00000073;
+  -webkit-text-stroke: 1px #000;
+  font-family: "Inter";
+  font-weight: bold;
+  margin-top: 2%;
+  margin-bottom: 1%;
 }
