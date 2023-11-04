@@ -1,0 +1,31 @@
+#portada{
+    display: flex;
+  justify-content: center;
+
+}
+#divTitle{
+    box-shadow: 0px 4px 4px #00000073;
+}
+hr{
+    margin:4.5%;
+    margin-top: 1%;
+    margin-bottom: 1.5%;
+}
+h1{
+    margin-left:4.5%;
+    margin-top: 1%;
+    font-family: 'KaiseiDecol';
+    font-weight: normal;
+    -webkit-text-stroke: 1px #000; 
+
+    text-shadow: 0px 4px 4px #00000073;
+}
+.custom-header{
+    background-color: #000!important;
+}
+
+.table{
+    font-family: 'Inter';
+    width:50%;
+    margin-left: 4.5%;
+}

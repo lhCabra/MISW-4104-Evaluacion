@@ -1,3 +1,30 @@
-<tr *ngFor="let planta of plantas">
-  {{planta.nombre_comun}}
-</tr>
+<div>
+  <h1>Vivero El Otoño</h1>
+  <hr id="divTitle">
+  <div id="portada">
+    <img src="..\assets\images\image 2.png">
+  </div>
+  <hr >
+ 
+  <table class="table">
+    <thead class="table-dark" >
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Nombre común</th>
+        <th scope="col">Tipo</th>
+        <th scope="col">Clima</th>
+      </tr>
+    </thead>
+    <tbody> 
+      <tr *ngFor="let planta of plantas">
+      <td>{{planta.id}}</td>
+      <td>{{planta.nombre_comun}}</td>
+      <td>{{planta.tipo}}</td>
+      <td>{{planta.clima}}</td>
+    </tr>
+     
+    </tbody>
+  </table>
+  <p>Total plantas de interior: {{getInteriores()}}</p>
+  <p>Total plantas de exterior: {{getExteriores()}}</p>
+</div>
